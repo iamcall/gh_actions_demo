@@ -21,4 +21,4 @@ jobs:
         shell: bash
         run: |
           python -c "import sys, platform; print(sys.version); print(platform.platform())"
-          echo "OS: ${{ runner.os }}"
+          echo "OS: ${{ runner.os }}"  d
